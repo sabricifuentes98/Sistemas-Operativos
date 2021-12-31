@@ -1,0 +1,7 @@
+Para trabajar con un fichero hay primero que abrirlo con una invocación a la
+función open. Ésta devuelve un descriptor de fichero (file descriptor ), un
+número entero que servirá de identificador de fichero en futuras operaciones.
+Finalmente hay que cerrar el fichero, con la función close, para liberar los
+recursos que tengamos asignados.
+Existen al menos tres descriptores ya establecidos en la ejecución de un
+programa (ya los han abierto por nos
